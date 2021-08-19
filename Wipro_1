@@ -1,0 +1,11 @@
+n=int(input())
+a=[]
+for i in range(n):
+  vehicle_number,hours=map(int, input ().split())
+  if hours==3:
+    print(vehicle_number,hours,'30.00')
+  elif hours>3 and hours!=24:
+    additional_time=((hours-3)*5.00)+30.00
+    print(vehicle_number,hours,str(additional_time)+'0')
+  elif hours==24:
+    print(vehicle_number,hours,'80.00')
