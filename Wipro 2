@@ -1,0 +1,4 @@
+# You are using Python
+m=int(input())
+n=int(input())
+print ("Minimum number of times is",(m*n)-1)
