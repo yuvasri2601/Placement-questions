@@ -1,0 +1,8 @@
+n=int(input())
+arr=list(map(int,input().split()))
+search_element=int(input ())
+count=0
+for i in arr:
+  if i==search_element:
+    count+=1
+print (search_element,'-',count)
