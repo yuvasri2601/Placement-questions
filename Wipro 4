@@ -1,0 +1,8 @@
+# You are using Python
+Total_miles=int(input())
+Cost=int(input ())
+Average_miles=int(input())
+Parking_fees=int(input())
+Tolls=int(input())
+driving_cost=(Total_miles/Average_miles)*Cost+Parking_fees+Tolls
+print("Cost: %.2f" %driving_cost)
