@@ -1,0 +1,13 @@
+n=int(input())
+print('Denomination')
+a=n//500
+aa=n-(a*500)
+print('500 =',a)
+b=aa//100
+bb=aa-(b*100)
+print('100 =',b)
+c=bb//50
+cc=bb-(c*50)
+print('50 =',c)
+d=cc//10
+print('10 =',d)
