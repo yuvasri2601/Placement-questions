@@ -1,0 +1,19 @@
+n=int(input())
+m=list(map(int,input().split()))
+s=0
+for i in m:
+  if i %9==0:
+     s+=9
+  else:
+    x=i%9
+    s+=x
+ss=str(s)
+aa=len(str(s))
+if(aa>1):
+  ans=0
+for i in range(aa):
+  ans+=int(ss[i])
+if ans%9==0:
+  print('9')
+else:
+  print(ans%9)
