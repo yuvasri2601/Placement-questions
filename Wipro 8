@@ -1,0 +1,11 @@
+# You are using Python
+
+from collections import Counter
+n=int(input())
+a=[]
+aa=[]
+for i in range(n):
+  m=int(input())
+  a.append(m)
+x=Counter(a).values()
+print(n-max (x))
