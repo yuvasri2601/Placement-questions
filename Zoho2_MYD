@@ -1,0 +1,9 @@
+# You are using Python
+string=input()
+print("Day:",string[-2:])
+month=[0,'January','February','March','April','May','June','July','August','September','October','November','December']
+mon=['0','01','02','03','04','05','06','07','08','09','10','11','12']
+a=string[5:7]
+aa=mon.index(a)
+print("Month:",month[aa])
+print("Year:","20"+string[3:5])
